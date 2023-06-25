@@ -1,7 +1,7 @@
 # BFFN A Novel Balanced Feature Fusion Network for Fair Facial Expression Recognition
 
 # Pipeline
-
+![avatar](/imgs/bffn.png)
 ## Train
 We train bffn with Torch 1.8.0 and torchvision 0.9.0.
 
@@ -17,4 +17,6 @@ Download RAF-DB, put it into the dataset folder, and make sure that it has the s
                 ...
 
 ## Trian the bffn model
+'''python
 python --dataset_path ./dataset/raf-db --bs 16 --lr 0.0007 --gamma 0.8 --epoch 40 --lamb 0.6 
+'''
