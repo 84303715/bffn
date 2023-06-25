@@ -15,7 +15,6 @@ Download RAF-DB, put it into the dataset folder, and make sure that it has the s
 	     train_00001_aligned.jpg
              test_0001_aligned.jpg
              ...
-
 ```
 
 ## Trian the bffn model
